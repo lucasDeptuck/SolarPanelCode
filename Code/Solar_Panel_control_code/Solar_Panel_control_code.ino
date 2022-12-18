@@ -3,12 +3,14 @@
 RV8803 rtc;
 
 //these define which pins control the stepper motors direction and pulse inputs
+// these pins were changed when the circuit board was transferred
 #define direction_signal_M1 3
 #define pulse_signal_M1 2
 #define direction_signal_M2 7
 #define pulse_signal_M2 8
 
 //these define the pins used for the manual operation buttons for controlling the stepper motors
+// these pins were changed when the circuit board was transferred
 #define M1_right 9
 #define M1_left 12
 #define M2_up 11
@@ -18,6 +20,7 @@ RV8803 rtc;
 #define Manual 4
 
 //these define the pins used for the calibration hall sensors
+// these pins were changed when the circuit board was transferred
 #define Hall90 5
 #define Hall180 6
 
